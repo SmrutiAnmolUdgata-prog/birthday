@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animals</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body class="bg-black">
+    <div>
+      <div class="bg-green-700 flex justify-center relative text-white">
+        <div class="flex">
+          <button onclick="cat()" class="ml-6 border-2 p-6 border-b-0">
+            Cat
+          </button>
+          <div
+            class="absolute border-2 bg-green-700 flex flex-col justify-center"
+            style="margin-top: 75px; margin-left: 20px"
+          >
+            <div class="border-2 mt-36">
+              <h1 class="text-center">ଜନ୍ମଦିନର ଶୁଭେଚ୍ଛା</h1>
+              <p
+                id="mithu"
+                class="text-center text-4xl"
+                style="font-family: monotype corsiva"
+              >
+                Mithu
+              </p>
+            </div>
+            <img
+              src="https://cdn.shopify.com/s/files/1/0582/8349/1478/files/british_shorthair_cat_breed_480x480.jpg?v=1702892232"
+              alt=""
+              id="image"
+              style="margin-top: 75px"
+              class="w-full"
+            />
+          </div>
+        </div>
+        <div class="flex">
+          <button onclick="dog()" class="border-2 p-6 border-b-0">Dog</button>
+        </div>
+        <div class="flex">
+          <button onclick="elephant()" class="border-2 p-6 border-b-0">
+            Elephant
+          </button>
+        </div>
+        <div class="flex">
+          <button onclick="tiger()" class="border-2 p-6 border-b-0">
+            Tiger
+          </button>
+        </div>
+      </div>
+    </div>
+    <script>
+      function dog() {
+        document.getElementById("image").src =
+          "https://media.tenor.com/sTFc7j1xRJ0AAAAM/doge-dancing-doge.gif";
+      }
+      function elephant() {
+        document.getElementById("image").src =
+          "https://media.tenor.com/qNmIzOnBtP0AAAAM/running-elephant.gif";
+      }
+      function tiger() {
+        document.getElementById("image").src =
+          "https://i.pinimg.com/originals/4f/b8/f9/4fb8f9f058407cb4b979ad655962a63b.gif";
+      }
+      function cat() {
+        document.getElementById("image").src =
+          "https://media.tenor.com/KFyq-jRiR7oAAAAM/kitten-falls-kitten-stumbling.gif";
+        d;
+      }
+    </script>
+    <div class="flex justify-center items-center h-lvh">
+      <img
+        src="https://yourbirthdaypodcast.com/wp-content/uploads/2024/03/Its-your-birthday-logo.webp"
+        alt=""
+        class=""
+      />
+    </div>
+  </body>
+</html>
